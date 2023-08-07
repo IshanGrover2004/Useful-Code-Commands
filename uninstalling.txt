@@ -1,1 +1,4 @@
 Neovim -: sudo apt-get remove --auto-remove neovim
+          rm -rf .config/nvim  &  .local/share/nvim
+
+
