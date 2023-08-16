@@ -1,0 +1,97 @@
+
+#1 word vs keyword:
+    1.the word is something that doesnt have meanong in the js 
+    2.the keyword is a set of reserved words which have have meaning in this language
+
+#2 Variables and constants:
+
+     1. In js variables is something that change for a example if we create a variable and first declare a value in it and then we change the value and 
+        the variable can accept this change in value on the other hand.
+     2. Constants will not accept this change in the value that means the value in constant remains same
+
+#3 Hoisting:
+    In the process of hoisting variables and functions declaration moved on the top of the code and due to this we can right console.log on the above line  
+    of the variable which is possible only in javascript to understand this concept we must know about know about how variable declare in javascript if we 
+    declare a variable like:
+                              var a=20; (the javascript breaks this line into two parts first is declaration and another one is intialisation part and 
+                                          due to this the declaration part moved on the top of the code and that's the explaination of the above concept) 
+
+#4 Types of datatypes in js:
+   They are of two types 1.primitive  2.reference
+   1.primitve : basically primitive are those which are not enclosed by any types of brackets and for example we have store a value 12 in variable called a
+   and then equate with a another called b then two different value got store in those variables.
+   2.reference : in reference whenwe equate two variables which are enclosed in a bracket that can be [],(),{} any of these brackets and in the varaible in
+   which we are giving the value of a to b and a is array in this case so any change made in the array a can affect the array b because its the reference to 
+   the array a not an individual array so that's a basic or core difference between the primirive and reference.
+
+#5 Conditionals:
+   Conditionals consist of three things which are 1.if 2.else 3.else-if
+
+#6 Loops:
+   loops means repeat they are of 3 types 1.for 2.while 
+        for(var i=25;i<=50;i++){
+           console.log(i);
+           }
+#7 Functions:
+ 
+            function abcd(){   (function declaration and intialisation)
+            console.log("HELLO");    }
+             abcd();  ( function calling)
+  
+   Functions are used in the scenarios mentioned below:
+   1.when you want to run code not immediately but you want to use it in the future then it will used
+   2.when we want to reuse our code.
+   3.when we want to run code many times but with different data
+   4.we can call function multiple times in a program
+
+   Arguments and parameters:
+   Arguments: Arguments are the real value that we give to the function at the time of calling
+   Parameters: Parameters are variable in which we can store the value (arguments value get stored)
+
+#8 Arrays:
+   When we need to add more then one value of same datatype then we use array or we can also that
+   array is group of values having same datatype.
+      var arr = [1,2,4,5]; (Array Declaration)
+   In array the index always start from zero.
+
+   If we want to add value or remove value or shift it then we some functions 
+   like push, pop, shift and unshift
+   1.push: push is used to add a value in the end of the array.
+     syntax: arr.push(n);  here n can be the any number you want to add
+   2.pop: pop is used to remove a value from the last index of the array.
+     syntax: arr.pop(); 
+   3.shift: shift is used to remove the element from the array but from its starting index.
+     syntax: arr.shift();
+   4.unshift: unshift is used to add an element in the starting index of the array.
+     syntax: arr.unshift(n);  here n can be the any number you want to add
+
+   # The function name splice is also used to remove the specific value from the array in
+     this function we give the index and the range from which we want to remove the elements
+     from the array.
+         var arr=[1,2,4,55,5];
+         arr.splice(3,1);  (here 3 represents the index and 1 is representing the range we can modify
+                           them according to the needs)
+#9 Objects:
+   1.It stored the information in form of key and values or we can say key and value pair.
+   2. blank Objects
+        var a={}; declaration 
+   3. filled Objects
+        var a={
+            (properties)name: himanshu,
+            class: btech,
+            age:19,
+        }
+   4.accessing values from an Objects:
+     syntax: objectname.properties 
+     for example: a.class;
+     we can also change the accessed data by using the same format
+
+   5. method: method is a property in which function is defined
+     for ex:
+        var bcs={
+             name:"himanshu"
+             class: function(){
+
+             }
+
+        };
